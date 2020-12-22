@@ -1,0 +1,8 @@
+input-files:
+- sample.md
+
+output-file: sample.docx
+
+filters:
+- zotref
+- pandoc-citeproc

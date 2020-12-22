@@ -1,0 +1,15 @@
+
+"" --- Additional settings ---
+call plug#begin('~/.local/share/nvim/plugged')
+Plug 'tomasr/molokai'
+Plug 'preservim/nerdtree'
+Plug 'yonchu/accelerated-smooth-scroll'
+Plug 'tpope/vim-fugitive'
+Plug 'rhysd/vim-grammarous'
+Plug 'rhysd/vim-grammarous'
+Plug 'benshuailyu/online-thesaurus-vim'
+Plug 'jalvesaq/zotcite'
+call plug#end()
+
+set colorcolumn=0
+let g:grammarous#enable_spell_check=1
